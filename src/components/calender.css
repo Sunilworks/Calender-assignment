@@ -1,0 +1,96 @@
+.top-bar {
+    height: 4rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: #e8e8eb; /* Use your color */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  /* Next/Previous Week Buttons */
+  .top-bar button {
+    margin-right: 6px;
+  }
+  
+  /* Datepicker */
+  .datepicker {
+    margin: 0 6px;
+    padding: 8px;
+  }
+  
+  /* Dropdown List */
+  .dropdown-list {
+    padding: 8px;
+  }
+  
+  /* Timezone Select */
+  .dropdown-list select {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #718096; /* Use your color */
+  }
+  
+  /* Main Content Container */
+  .main-content {
+    border: 2px solid #e2e8f0; /* Use your color */
+  }
+  
+  /* Day Container */
+  .day-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  /* Day Header */
+  .day-header {
+    padding: 1rem;
+    width: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1e1ff; /* Use your color */
+  }
+  
+  .day-header h2 {
+    color: #e53e3e; /* Use your color */
+    font-weight: 600;
+  }
+  
+  .day-header p {
+    color: #4a5568; /* Use your color */
+  }
+  
+  /* Times and Checkboxes Container */
+  .times-checkboxes-container {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  /* Past Day Label */
+  .past-label {
+    background-color: #a0aec0; /* Use your color */
+    color: #256deb; /* Use your color */
+    padding: 8px;
+    border-radius: 4px;
+    margin: 2px;
+  }
+  
+  /* Weekend Day Label */
+  .weekend-label {
+    background-color: #feb2b2; /* Use your color */
+    color: #9b2c2c; /* Use your color */
+    padding: 8px;
+    border-radius: 4px;
+    margin: 2px;
+  }
+  
+  /* Checkbox */
+  .checkbox {
+    margin: 0.5rem;
+  }
+  
